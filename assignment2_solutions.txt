@@ -1,0 +1,165 @@
+
+Assignment2
+
+
+
+question 1:
+
+
+
+
+To list directory contents sorted by date in Linux, you can use the ls command with the -l (long format) option and 
+the -t (sort by modification time, newest first) option. Here's the command:
+
+ls -lt
+
+This will display the contents of the current directory in long format with the newest files first.
+
+
+question2:
+
+
+If you want to include hidden files (those starting with a dot), you can add the -a option:
+
+List the directory contents size-wise sorted.
+
+ls -lS
+
+
+question3
+
+List directory contents along with their inode no.
+
+
+ls -i
+
+
+question4
+
+List the contents of the subdirectory.
+
+ls subdirectory_path
+
+question5
+
+Create a file, write your surname and name in it and save.
+i. Open the same file and add your address in it and save.
+ii. Reopen the same file and check your name and address in it.
+
+i.echo "Hemadre swapnil" > myfile.txt
+ii.echo "Address" >> myfile.txt       ----search
+cat myfile.txt
+
+question6
+
+How to change the timestamp of a file (man touch).
+
+touch -t YYYYMMDDhhmm.ss filename
+
+question7
+
+Create directory structure.
+
+1)mkdir one
+This command creates a new directory named "one" in your current working directory. 
+
+2)cd one
+This command will change your current working directory to the "one" directory.
+
+
+3)touch 1.txt 11.txt 111.txt
+
+It looks like you want to create three empty files named "1.txt," "11.txt," and "111.txt" in the current directory. You can use the touch command for this purpose
+
+
+4)smkdir two
+to create a directory named "two," you can use the mkdir command followed by the directory name. 
+
+5)cd two
+This command will change your current working directory to the "two" directory.
+
+6)touch 2.txt 22.txt 222.txt
+
+This command will create the specified empty files in the "two" directory.
+
+
+7)mkdir three
+
+This command will create a new directory named "three" in your current working directory. I
+
+
+8)cd three
+
+his command will change your current working directory to the "three" directory. 
+
+9)touch 3.txt 33.txt 333.txt
+ This command will create the specified empty files in the "three" directory. 
+10)mkdir four
+ This command will create a new directory named "four" in your current working directory
+ 
+
+
+
+
+
+
+question8
+
+
+i. ls five
+
+ii. echo "swapnil" > four/44.txt
+
+iii. rm five/555.txt
+
+iv. cd one/two/three/four/five/
+
+v. echo "Your Course Name" > three/3.txt && cat three/3.txt
+
+vi. ls two
+
+vii. rm two/222.txt
+
+viii. cd one
+
+ix. rm -f five/*
+
+x. rmdir five
+
+xi. rmdir four
+
+xii. cd ~
+
+
+
+
+question9
+
+
+touch -t YYYYMMDDhhmm.ss three/3.txt
+
+touch -t 202301011230.45 three/3.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
